@@ -6,8 +6,8 @@
             
             <nav>
                 <ul class="row">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#">Movies complete list</a></li>
+                    <li><a href="{{route('homepage')}}">Home</a></li>
+                    <li><a href="{{route('movieList')}}">Movies complete list</a></li>
                 </ul>
             </nav>
 
