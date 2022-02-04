@@ -31,7 +31,8 @@ a {
 
 header {
   background-color: #2D4263;
-  padding: 20px 0;
+  height: 80px;
+  line-height: 80px;
 }
 
 header h1,
@@ -49,5 +50,34 @@ header nav ul {
 
 header nav ul li {
   margin: 0 10px;
+}
+
+main {
+  background-color: #191919;
+  min-height: calc(100vh - 80px);
+  padding: 50px 0;
+}
+
+.home .card {
+  background-color: #C84B31;
+  width: calc(50% - 40px);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.home .card h2 {
+  margin-bottom: 20px;
+}
+
+.home .card span {
+  display: block;
+  margin: 10px 0;
+}
+
+.home .card:hover {
+  transform: scale(1.05);
 }
 
