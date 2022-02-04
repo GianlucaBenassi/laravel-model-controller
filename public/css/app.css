@@ -20,3 +20,34 @@ body {
   flex-wrap: wrap;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+header {
+  background-color: #2D4263;
+  padding: 20px 0;
+}
+
+header h1,
+header nav a {
+  color: #fff;
+}
+
+header .row {
+  align-items: center;
+}
+
+header nav ul {
+  margin-left: 50px;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
